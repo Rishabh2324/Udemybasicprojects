@@ -1,0 +1,32 @@
+body {
+    height: 100%;
+    
+}
+video {
+    top: 100%;
+    left:100%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index:1;
+}
+div {
+    position: fixed;
+    z-index: 2;
+   margin: auto 250px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Orbitron', sans-serif;
+    }
+h1 {
+    font-size: 3em;
+    color:orange;
+}
+a{
+    color:orange;
+  
+    text-decoration: none;
+}
+p {
+    color:cornsilk
+}
+
