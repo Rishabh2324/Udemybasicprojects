@@ -1,15 +1,8 @@
-var doSomething = function(work){
-    console.log(work);
-    console.log(this);
-}
-doSomething("pushups");
-var exercise={benchpress:"4 sets", squats : "5 sets"}
-doSomething.call(exercise,exercise.squats);     
-doSomething.apply(exercise,['crunches']); 
-
-
-
-
+var counter =(function(){
+              var addOne=0;
+              return function() {return addOne +=1;}
+              })();
+console.log(counter());
 
 
 
