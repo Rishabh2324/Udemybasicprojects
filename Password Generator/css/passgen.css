@@ -1,0 +1,12 @@
+body {
+    background: url("../css/bg2.jpg") center  no-repeat fixed ;
+  background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    
+   }
+input {
+    border: 5px solid black;
+    
+}
+
